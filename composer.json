@@ -1,0 +1,41 @@
+{
+    "name": "duroom/canonical",
+    "description": "Create redirects to the canonical url of your forum",
+    "keywords": [
+        "extension",
+        "duroom",
+        "canonical",
+        "url"
+    ],
+    "type": "duroom-extension",
+    "license": "MIT",
+    "require": {
+        "duroom/core": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "NKDuy",
+            "email": "kn145660@gmail.com",
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/DuRoom/canonical/issues",
+        "source": "https://github.com/DuRoom/canonical"
+    },
+    "extra": {
+        "duroom-extension": {
+            "title": "Canonical Url",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-directions",
+                "backgroundColor": "#e7672e",
+                "color": "#fafafa"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "DuRoom\\Canonical\\": "src/"
+        }
+    }
+}
